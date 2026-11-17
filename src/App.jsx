@@ -1,8 +1,9 @@
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { useEffect } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useStore } from './store.jsx'
 import Nav from './components/Nav.jsx'
+import Splash from './components/Splash.jsx'
 import Welcome from './pages/Welcome.jsx'
 import Auth from './pages/Auth.jsx'
 import Home from './pages/Home.jsx'
@@ -30,10 +31,13 @@ const Page = ({ children }) => (
 )
 export default function App() {
   const loc = useLocation()
+  const [splash, setSplash] = useState(() => { try { return !sessionStorage.getItem('hx_splash') } catch { return true } })
+  const done = useCallback(() => { try { sessionStorage.setItem('hx_splash', '1') } catch { /* ignore */ } setSplash(false) }, [])
   useEffect(() => { window.scrollTo(0, 0) }, [loc.pathname])
   const bare = ['/', '/login', '/signup'].includes(loc.pathname)
   return (
     <>
+      <AnimatePresence>{splash && <Splash key="splash" onDone={done} />}</AnimatePresence>
       <div className="bg"><i /><i /><i /></div>
       {!bare && <Nav />}
       <AnimatePresence mode="wait">
