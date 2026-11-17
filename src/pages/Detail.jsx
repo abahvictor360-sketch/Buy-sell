@@ -17,9 +17,9 @@ export default function Detail() {
   const others = properties.filter((x) => x.id !== p.id && x.img !== p.img).slice(0, 3)
   const content = {
     Facilities: ['🛏 ' + p.beds + ' Bedrooms', '🛁 ' + p.baths + ' Bathrooms', '📐 ' + p.area.toLocaleString() + ' sq ft', '🚗 Private garage', '🏊 Garden & lighting', '🔒 24/7 security'],
-    Offers: ['Free viewing this week', 'Flexible payment plan', p.mode === 'Rent' ? 'First month 10% off' : 'Mortgage advisory included'],
+    Offers: ['Free viewing this week', 'Flexible payment plan', p.mode === 'Rent' ? '5% off annual rent' : 'Mortgage advisory included'],
     Host: ['Listed by HuntX Verified Agent', 'Replies within 1 hour', '⭐ ' + p.rating.toFixed(1) + ' host rating'],
-    Location: [p.city + ', USA', 'Gated modern neighbourhood', 'Schools · Malls · Transit within 10 min'],
+    Location: [p.city + ', Nigeria', 'Gated modern neighbourhood', 'Schools · Malls · Transit within 10 min'],
   }[tab]
   return (
     <div className="detail">

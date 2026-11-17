@@ -1,6 +1,6 @@
 # HuntX – social post (LinkedIn / X / Instagram / Facebook)
 
-🏠 Just launched **HuntX**: a modern real estate app to **buy, sell and rent** homes, apartments and offices, all in one place.
+🏠 Just launched **HuntX**: a modern Nigerian real estate app to **buy, sell and rent** homes, apartments and offices, all in one place.
 
 ✨ Liquid-glass UI, smooth motion and animations
 🔐 Secure login & sign-up
@@ -14,7 +14,7 @@ Built with React, Vite, Framer Motion and deployed on Vercel.
 
 I'm a **front-end / full-stack developer** open to client projects: real estate platforms, marketplaces, landing pages, mobile-first web apps and UI/UX design. Need something like this for your business? **DM me or comment "HuntX"**. Let's build it. 🤝
 
-#RealEstateApp #PropertyTech #ProptechStartup #RealEstateDevelopment #WebDeveloper #FrontendDeveloper #FullStackDeveloper #ReactJS #ViteJS #FramerMotion #UIUX #UIDesign #MobileFirst #LiquidGlass #GlassmorphismUI #AppDesign #WebDesign #HireADeveloper #FreelanceDeveloper #FreelanceWebDeveloper #BuildInPublic #Vercel #JavaScript #Startup #PropertyListing #HomesForSale #ApartmentsForRent #LuxuryHomes #ModernHouseDesign #AvailableForHire
+#NigeriaRealEstate #LagosRealEstate #AbujaProperty #NigerianDeveloper #RealEstateApp #PropertyTech #ProptechStartup #RealEstateDevelopment #WebDeveloper #FrontendDeveloper #FullStackDeveloper #ReactJS #ViteJS #FramerMotion #UIUX #UIDesign #MobileFirst #LiquidGlass #GlassmorphismUI #AppDesign #WebDesign #HireADeveloper #FreelanceDeveloper #FreelanceWebDeveloper #BuildInPublic #Vercel #JavaScript #Startup #PropertyListing #HomesForSale #ApartmentsForRent #LuxuryHomes #ModernHouseDesign #AvailableForHire
 
 ---
 
@@ -23,6 +23,6 @@ I'm a **front-end / full-stack developer** open to client projects: real estate 
 Launched **HuntX** 🏠 a modern app to buy, sell & rent homes, apartments and offices. Liquid-glass UI, smooth animations, login, search and listings.
 Live: https://huntx-drab.vercel.app
 Available for client work! DM me 📩
-#RealEstateApp #ProptechStartup #ReactJS #WebDeveloper #UIUX #FreelanceDeveloper #HireADeveloper #BuildInPublic
+#NigeriaRealEstate #LagosRealEstate #AbujaProperty #NigerianDeveloper #RealEstateApp #ProptechStartup #ReactJS #WebDeveloper #UIUX #FreelanceDeveloper #HireADeveloper #BuildInPublic
 
 **Searchable keywords:** real estate app developer, property listing website, buy sell rent app, React developer for hire, freelance front-end developer, proptech web app, mobile-first web app, UI/UX liquid glass design.

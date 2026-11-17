@@ -27,8 +27,8 @@ export default function Sell() {
       <h1 className="h1">List your <b>property</b></h1>
       <motion.form className="glass box form" onSubmit={submit} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
         <input required placeholder="Property title" value={f.title} onChange={set('title')} />
-        <input required placeholder="City" value={f.city} onChange={set('city')} />
-        <input required type="number" min="1" placeholder="Price (USD)" value={f.price} onChange={set('price')} />
+        <input required placeholder="City / Area (e.g. Lekki, Lagos)" value={f.city} onChange={set('city')} />
+        <input required type="number" min="1" placeholder="Price (₦ Naira)" value={f.price} onChange={set('price')} />
         <div className="two"><select value={f.mode} onChange={set('mode')}><option>Buy</option><option>Rent</option></select>
           <select value={f.type} onChange={set('type')}><option>Home</option><option>Apartment</option><option>Office</option></select></div>
         <div className="two"><input type="number" min="0" placeholder="Beds" value={f.beds} onChange={set('beds')} /><input type="number" min="0" placeholder="Baths" value={f.baths} onChange={set('baths')} /></div>
